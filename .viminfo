@@ -10,17 +10,26 @@
 
 # hlsearch on (H) or off (h):
 ~H
+# Last Substitute String:
+$
+
 # Command Line History (newest to oldest):
+:q!
+|2,0,1608059778,,"q!"
+:q
+|2,0,1608059762,,"q"
 :wq
-|2,0,1608057783,,"wq"
+|2,0,1608059759,,"wq"
 :w
 |2,0,1608057201,,"w"
 :my name is narendra
 |2,0,1608054671,,"my name is narendra"
-:q
-|2,0,1608054627,,"q"
 
 # Search String History (newest to oldest):
+??\a
+|2,1,1608059760,63,"\\a"
+? @$
+|2,1,1608059760,,"@$"
 
 # Expression History (newest to oldest):
 
@@ -31,32 +40,82 @@
 # Registers:
 
 # File marks:
-'0  1  0  ~/sample.txt
-|4,48,1,0,1608057783,"~/sample.txt"
-'1  4  0  ~/sample.txt
-|4,49,4,0,1608057363,"~/sample.txt"
-'2  4  0  ~/sample.txt
-|4,50,4,0,1608057363,"~/sample.txt"
-'3  1  0  ~/sample.txt
-|4,51,1,0,1608057082,"~/sample.txt"
-'4  1  0  ~/sample.txt
-|4,52,1,0,1608057082,"~/sample.txt"
+'0  8  0  /
+|4,48,8,0,1608059778,"/"
+'1  6  0  ~/.git/index
+|4,49,6,0,1608059708,"~/.git/index"
+'2  1  0  ~/sample.txt
+|4,50,1,0,1608057783,"~/sample.txt"
+'3  4  0  ~/sample.txt
+|4,51,4,0,1608057363,"~/sample.txt"
+'4  4  0  ~/sample.txt
+|4,52,4,0,1608057363,"~/sample.txt"
 '5  1  0  ~/sample.txt
 |4,53,1,0,1608057082,"~/sample.txt"
-'6  1  0  ~/samplefile.txt
-|4,54,1,0,1608054686,"~/samplefile.txt"
-'7  1  0  ~/samplefile.txt
-|4,55,1,0,1608054627,"~/samplefile.txt"
+'6  1  0  ~/sample.txt
+|4,54,1,0,1608057082,"~/sample.txt"
+'7  1  0  ~/sample.txt
+|4,55,1,0,1608057082,"~/sample.txt"
+'8  1  0  ~/samplefile.txt
+|4,56,1,0,1608054686,"~/samplefile.txt"
+'9  1  0  ~/samplefile.txt
+|4,57,1,0,1608054627,"~/samplefile.txt"
 
 # Jumplist (newest first):
+-'  8  0  /
+|4,39,8,0,1608059778,"/"
+-'  30  0  /
+|4,39,30,0,1608059760,"/"
+-'  1  0  /
+|4,39,1,0,1608059760,"/"
+-'  8  0  /home
+|4,39,8,0,1608059749,"/home"
+-'  8  0  ~/
+|4,39,8,0,1608059745,"~/"
+-'  8  0  ~/.git
+|4,39,8,0,1608059734,"~/.git"
+-'  6  0  ~/.git/index
+|4,39,6,0,1608059708,"~/.git/index"
+-'  6  0  ~/.git/index
+|4,39,6,0,1608059708,"~/.git/index"
+-'  1  0  ~/sample.txt
+|4,39,1,0,1608057783,"~/sample.txt"
+-'  1  0  ~/sample.txt
+|4,39,1,0,1608057783,"~/sample.txt"
+-'  1  0  ~/sample.txt
+|4,39,1,0,1608057783,"~/sample.txt"
 -'  1  0  ~/sample.txt
 |4,39,1,0,1608057783,"~/sample.txt"
 -'  4  0  ~/sample.txt
 |4,39,4,0,1608057363,"~/sample.txt"
 -'  4  0  ~/sample.txt
 |4,39,4,0,1608057363,"~/sample.txt"
+-'  4  0  ~/sample.txt
+|4,39,4,0,1608057363,"~/sample.txt"
+-'  4  0  ~/sample.txt
+|4,39,4,0,1608057363,"~/sample.txt"
+-'  4  0  ~/sample.txt
+|4,39,4,0,1608057363,"~/sample.txt"
+-'  4  0  ~/sample.txt
+|4,39,4,0,1608057363,"~/sample.txt"
+-'  4  0  ~/sample.txt
+|4,39,4,0,1608057363,"~/sample.txt"
+-'  4  0  ~/sample.txt
+|4,39,4,0,1608057363,"~/sample.txt"
 -'  1  0  ~/sample.txt
 |4,39,1,0,1608057087,"~/sample.txt"
+-'  1  0  ~/sample.txt
+|4,39,1,0,1608057087,"~/sample.txt"
+-'  1  0  ~/sample.txt
+|4,39,1,0,1608057087,"~/sample.txt"
+-'  1  0  ~/sample.txt
+|4,39,1,0,1608057087,"~/sample.txt"
+-'  1  0  ~/sample.txt
+|4,39,1,0,1608057082,"~/sample.txt"
+-'  1  0  ~/sample.txt
+|4,39,1,0,1608057082,"~/sample.txt"
+-'  1  0  ~/sample.txt
+|4,39,1,0,1608057082,"~/sample.txt"
 -'  1  0  ~/sample.txt
 |4,39,1,0,1608057082,"~/sample.txt"
 -'  1  0  ~/samplefile.txt
@@ -76,6 +135,102 @@
 -'  1  0  ~/samplefile.txt
 |4,39,1,0,1608054686,"~/samplefile.txt"
 -'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054686,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054686,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054686,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054686,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054686,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054686,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054686,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054686,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054686,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054686,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054686,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054686,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054686,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054686,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054686,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054686,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054686,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054686,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054686,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054686,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054686,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054686,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054686,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054686,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054627,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054627,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054627,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054627,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054627,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054627,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054627,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054627,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054627,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054627,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054627,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054627,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054627,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054627,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054627,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054627,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054627,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054627,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054627,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054627,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054627,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054627,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054627,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
+|4,39,1,0,1608054627,"~/samplefile.txt"
+-'  1  0  ~/samplefile.txt
 |4,39,1,0,1608054627,"~/samplefile.txt"
 -'  1  0  ~/samplefile.txt
 |4,39,1,0,1608054627,"~/samplefile.txt"
@@ -93,6 +248,10 @@
 |4,39,1,0,1608054627,"~/samplefile.txt"
 
 # History of marks within files (newest to oldest):
+
+> ~/.git/index
+	*	1608059705	0
+	"	6	0
 
 > ~/sample.txt
 	*	1608057776	0
